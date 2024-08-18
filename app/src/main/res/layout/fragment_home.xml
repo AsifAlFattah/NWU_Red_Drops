@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="241dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Nested LinearLayout for Buttons -->
+
+
+        <!-- Find Donor Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:paddingHorizontal="20dp">
+
+            <Button
+                android:id="@+id/buttonFindDonor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/find_donor" />
+        </LinearLayout>
+
+        <!-- Request Blood Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <Button
+                android:id="@+id/buttonRequestBlood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/request_for_blood" />
+        </LinearLayout>
+
+        <!-- Blood Banks Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <Button
+                android:id="@+id/buttonBloodBanks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blood_banks" />
+        </LinearLayout>
+
+        <!-- Recent Blood Request Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <Button
+                android:id="@+id/buttonRecentBloodRequests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recent_blood_requests" />
+        </LinearLayout>
+
+        <!-- Your History Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <Button
+                android:id="@+id/buttonYourHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/your_history" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

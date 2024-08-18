@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585071713280",
+    "project_id": "nwu-red-drop",
+    "storage_bucket": "nwu-red-drop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585071713280:android:9ae40442f1d3e0a36d8ce5",
+        "android_client_info": {
+          "package_name": "com.example.nwureddrops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585071713280-p8oogeo848hkkke10dffi1d2ikpld0gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5pXO_5p3QwVepWR4CnRwA7n7v7r18kvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585071713280-p8oogeo848hkkke10dffi1d2ikpld0gn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

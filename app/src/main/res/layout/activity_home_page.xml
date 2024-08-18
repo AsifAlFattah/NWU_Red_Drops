@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".HomePage">
+
+
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="241dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@id/buttonFindDonor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Find Donor Button -->
+
+    <!-- Request Blood Button -->
+
+    <Button
+        android:id="@+id/buttonFindDonor"
+        android:layout_width="171dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/find_donor"
+        app:layout_constraintEnd_toStartOf="@id/buttonRequestBlood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewLogo" />
+
+    <Button
+        android:id="@+id/buttonRequestBlood"
+        android:layout_width="155dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/request_for_blood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonFindDonor"
+        app:layout_constraintTop_toTopOf="@id/buttonFindDonor" />
+
+    <!-- Blood Banks Button -->
+
+    <!-- Your History Button -->
+
+    <Button
+        android:id="@+id/buttonBloodBanks"
+        android:layout_width="169dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/blood_banks"
+        app:layout_constraintEnd_toStartOf="@id/buttonYourHistory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonFindDonor" />
+
+    <Button
+        android:id="@+id/buttonYourHistory"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/your_history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonBloodBanks"
+        app:layout_constraintTop_toTopOf="@id/buttonBloodBanks" />
+
+    <!-- Recent Blood Requests -->
+
+    <!-- List of Recent Blood Requests (you can replace with a RecyclerView) -->
+
+    <!-- See More Button -->
+
+    <!-- Bottom Navigation Menu -->
+
+    <TextView
+        android:id="@+id/textViewRecentRequests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/recent_blood_requests"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonBloodBanks" />
+
+    <TextView
+        android:id="@+id/textViewRequest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/_1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewRecentRequests" />
+
+    <Button
+        android:id="@+id/buttonSeeMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/see_more"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewRequest1" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

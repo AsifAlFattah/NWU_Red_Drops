@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NWURedDrops" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/customPrimaryColor</item>
+
+    </style>
+
+    <style name="MyBottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@color/customPrimaryColor</item>
+    </style>
+
+    <style name="Theme.NWURedDrops" parent="Base.Theme.NWURedDrops" />
+
+</resources>

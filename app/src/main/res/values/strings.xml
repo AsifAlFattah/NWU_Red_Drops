@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Red Drop</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="need_an_account">Need an Account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="or">Or</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="blood_group">Blood Group:</string>
+    <string name="sign_up_as_donor">Sign up as Donor</string>
+    <string name="register">Register</string>
+    <string name="back_to_login_page">Back to Login Page</string>
+    <string name="find_donor">Find Donor</string>
+    <string name="request_for_blood">Request for Blood</string>
+    <string name="blood_banks">Blood Banks</string>
+    <string name="your_history">Your History</string>
+    <string name="recent_blood_requests">Recent Blood Requests</string>
+    <string name="_1">1. ... ... ...</string>
+    <string name="see_more">See More</string>
+    <string name="sign_out">Sign out</string>
+    <string-array name="blood_group_options">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="district_options">
+        <item>Bagerhat</item>
+        <item>Bandarban</item>
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Bogra</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chittagong</item>
+        <item>Chuadanga</item>
+        <item>Comilla</item>
+        <item>Cox\'s Bazar</item>
+        <item>Dhaka</item>
+        <item>Dinajpur</item>
+        <item>Faridpur</item>
+        <item>Feni</item>
+        <item>Gaibandha</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Habiganj</item>
+        <item>Jamalpur</item>
+        <item>Jessore</item>
+        <item>Jhalokati</item>
+        <item>Jhenaidah</item>
+        <item>Joypurhat</item>
+        <item>Khagrachari</item>
+        <item>Khulna</item>
+        <item>Kishoreganj</item>
+        <item>Kurigram</item>
+        <item>Kushtia</item>
+        <item>Lakshmipur</item>
+        <item>Lalmonirhat</item>
+        <item>Madaripur</item>
+        <item>Magura</item>
+        <item>Manikganj</item>
+        <item>Maulvibazar</item>
+        <item>Meherpur</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Narail</item>
+        <item>Narayanganj</item>
+        <item>Natore</item>
+        <item>Nawabganj</item>
+        <item>Netrokona</item>
+        <item>Nilphamari</item>
+        <item>Noakhali</item>
+        <item>Pabna</item>
+        <item>Panchagarh</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Rajbari</item>
+        <item>Rajshahi</item>
+        <item>Rangamati</item>
+        <item>Rangpur</item>
+        <item>Satkhira</item>
+        <item>Sherpur</item>
+        <item>Shariatpur</item>
+        <item>Sirajgonj</item>
+        <item>Sylhet</item>
+        <item>Tangail</item>
+        <item>Thakurgaon</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">home_fragment</string>
+    <string name="chat_fragment" />
+    <string name="chat_fragment1">chat_fragment</string>
+    <string name="profile">profile</string>
+    <string name="gender">Gender:</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="back"><![CDATA[ Back]]></string>
+    <string name="save_profile">Save Profile</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="edit_profile_picture">Edit Profile Picture</string>
+    <string name="full_name">Full Name</string>
+    <string name="back_to_profile">Back to Profile</string>
+    <string name="date_of_birth">Date of Birth:</string>
+    <string name="select_date">Select Date</string>
+    <string name="last_donation">Last Donation:</string>
+    <string name="select_division">Select Division:</string>
+    <string name="select_district">Select District: </string>
+    <string name="address">Address:</string>
+    <string name="select_blood_group">Select Blood Group:</string>
+    <string name="submit_request">Submit Request</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="contact_no">Contact No:</string>
+    <string name="hospital_name_and_details_address">Hospital Name and Details Address:</string>
+    <string name="patient_condition_and_details">Patient Condition and Details:</string>
+    <string name="chat_feature_is_coming_soon">Chat feature is coming soon!</string>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BloodRequest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request_for_blood"
+            android:textSize="30sp"
+            android:textColor="@color/customPrimaryColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp">
+
+        </TextView>
+
+        <!-- Blood Group Spinner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/textViewBloodGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/blood_group" />
+
+            <Spinner
+                android:id="@+id/spinnerBloodGroup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+
+        <!-- Date of Donation-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/textViewBirthDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:textSize="18sp"
+                android:text="Date of Donation:" />
+
+            <Button
+                android:id="@+id/buttonSelectDonationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_date"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:textSize="18sp"
+                android:text="@string/address" />
+
+
+            <!-- District Spinner -->
+            <Spinner
+                android:id="@+id/spinnerDistrict"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="1dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/textViewContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:textSize="18sp"
+                android:text="@string/contact_no"
+                android:layout_gravity="center_vertical"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextContact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="@string/enter_phone_number"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/textViewHospitalDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:textSize="18sp"
+                android:text="@string/hospital_name_and_details_address" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextHospitalDetails"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="textMultiLine"
+                android:hint="Enter hospital name and address"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:minLines="3"
+                android:gravity="top"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/textViewPatientDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:textSize="18sp"
+                android:text="@string/patient_condition_and_details" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextPatientDetails"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="textMultiLine"
+                android:hint="Enter hospital name and address"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:minLines="3"
+                android:gravity="top"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/buttonSubmitRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_request"
+            android:layout_marginTop="30dp" />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back_to_home"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</ScrollView>

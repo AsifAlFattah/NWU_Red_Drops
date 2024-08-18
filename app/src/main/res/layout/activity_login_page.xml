@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".LoginPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <!-- Username Input -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/email"
+            android:imeOptions="actionNext"
+            android:importantForAccessibility="yes"
+            android:inputType="textEmailAddress"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Password Input -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:imeOptions="actionDone"
+            android:importantForAccessibility="yes"
+            android:inputType="textPassword"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes"
+            android:onClick="onLoginButtonClick"
+            android:text="@string/login"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="32dp" />
+
+        <!-- Login with Google Button -->
+<!--        <Button-->
+<!--            android:id="@+id/buttonLoginWithGoogle"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:importantForAccessibility="yes"-->
+<!--            android:onClick="onLoginWithGoogleButtonClick"-->
+<!--            android:text="@string/login_with_google"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/buttonLogin"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:layout_marginEnd="24dp"-->
+<!--            android:layout_marginTop="10dp" />-->
+
+        <!-- "Need an Account?" Text -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/need_an_account"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp" />
+
+        <!-- Register Now Button -->
+        <Button
+            android:id="@+id/buttonRegisterNow"
+            android:layout_width="300dp"
+            android:layout_height="47dp"
+            android:importantForAccessibility="yes"
+            android:onClick="onRegisterNowButtonClick"
+            android:text="@string/register_now"
+            android:textColor="#FEFEFE"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
+
+        <!-- "Or" Text -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+        <!-- Continue as Guest Button -->
+        <Button
+            android:id="@+id/buttonContinueAsGuest"
+            android:layout_width="300dp"
+            android:layout_height="47dp"
+            android:importantForAccessibility="yes"
+            android:onClick="onContinueAsGuestButtonClick"
+            android:text="@string/continue_as_guest"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
